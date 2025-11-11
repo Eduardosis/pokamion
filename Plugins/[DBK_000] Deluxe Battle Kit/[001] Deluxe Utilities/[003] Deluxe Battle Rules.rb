@@ -34,6 +34,7 @@ class Game_Temp
     when "editwildpokemon3"  then rules["editWildPokemon3"]  = var
     when "nomegaevolution"   then rules["noMegaEvolution"]   = var
     when "midbattlescript"   then rules["midbattleScript"]   = var
+    when "size"              then rules["size"]               = var
     else
       dx_add_battle_rule(rule, var)
     end
@@ -84,7 +85,7 @@ def additionalRules
     "tempplayer", "tempbag", "tempparty", 
     "battlebgm", "victorybgm", "captureme", "lowhealthbgm", 
     "editwildpokemon", "editwildpokemon2", "editwildpokemon3", 
-    "midbattlescript", "nomegaevolution"
+    "midbattlescript", "nomegaevolution", "size"
   ]
 end
 
